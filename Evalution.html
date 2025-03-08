@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.item img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: red;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+</style>
+<body>
+    <header>
+        <h1>Fashion Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#bestsellers">Bestsellers</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#themes">Shop by Themes</a></li>
+                <li><a href="#membership">Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="bestsellers" class="grid">
+        <h2>Best Sellers &#127760</h2>
+        <div class="grid-container">
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Tshirts_copy_2_CxFs6tQ.jpg?format=webp&w=480&dpr=1.3" alt="Item 1"></div>
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/sneakers_copy_S2Qrmtv.jpg?format=webp&w=480&dpr=1.3" alt="Item 2"></div>
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Accessories_copy_1_pQZqjsh.jpg?format=webp&w=480&dpr=1.3" alt="Item 3"></div>
+        </div>
+    </section>
+    
+    <section id="categories" class="grid">
+        <h2>Categories</h2>
+        <div class="grid-container">
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Tshirts_copy_D8RD069.jpg?format=webp&w=480&dpr=1.3" alt="Tops"></div>
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Shorts_copy_EEm9BKP.jpg?format=webp&w=480&dpr=1.3" alt="Bottomwear"></div>
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Sneakers_copy_tAV8FV8.jpg?format=webp&w=480&dpr=1.3 alt="Sneakers"></div>
+        </div>
+    </section>
+    
+    <section id="themes" class="grid">
+        <h2>Shop by Themes</h2>
+        <div class="grid-container">
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/marvel_1.jpg?format=webp&w=480&dpr=1.3" alt="Theme 1"></div>
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/CT1.jpg?format=webp&w=480&dpr=1.3" alt="Theme 2"></div>
+            <div class="item"><img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/nomad1/gal1-hw-1.jpg?t=1741423529302&format=webp&w=768&dpr=1.3" alt="Theme 3"></div>
+        </div>
+    </section>
+    
+    <section id="membership" class="grid">
+        <h2>Membership Perks</h2>
+        <p>Exclusive Discounts, Priority Shipping, and More! 🔥🔥🔥</p>
+    </section>
+    
+    <footer>
+        <p>Homegrown Indian Brand | Over 6 Million Happy Customers</p>
+    </footer>
+</body>
+</html>
